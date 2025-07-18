@@ -18,11 +18,9 @@
                     <div class="logo-sub">Zielarnia</div>
                 </div>
             </a>
-            
             <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
                 <i class="fas fa-bars"></i>
             </button>
-            
             <ul class="nav-links" id="navLinks">
                 <li><a href="#home">Strona główna</a></li>
                 <li><a href="#about">O nas</a></li>
@@ -35,10 +33,12 @@
     <section id="home" class="hero">
         <div class="container">
             <div class="hero-content fade-in">
-                <h1>Szepty Lasu</h1>
-                <p>Kameralny sklep zielarski w Bytomiu - Twój przewodnik w świecie naturalnego zdrowia</p>
-                <div class="cta-button-container">
-                    <a href="#contact" class="cta-button">Odwiedź nas</a>
+                <div class="hero-text-container">
+                    <h1>Szepty Lasu</h1>
+                    <p>Kameralny sklep zielarski w Bytomiu - Twój przewodnik w świecie naturalnego zdrowia</p>
+                    <div class="cta-button-container">
+                        <a href="#contact" class="cta-button">Odwiedź nas</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -50,11 +50,8 @@
             <div class="about-content">
                 <div class="about-text">
                     <p><strong>Szepty Lasu</strong> to kameralny sklep zielarski zlokalizowany w Bytomiu przy ul. Godulskiej 15, stworzony z miłości do natury i troski o zdrowie – fizyczne i psychiczne.</p>
-                    
                     <p>Oferujemy szeroki wybór naturalnych produktów: suplementy diety, zioła, oleje, miody, zdrową żywność i kosmetyki naturalne – wszystko od sprawdzonych, polskich producentów.</p>
-                    
                     <p>Naszym celem jest wspieranie świadomego stylu życia – opartego na bliskości z naturą, zrównoważonym odżywianiu oraz holistycznym podejściu do zdrowia.</p>
-                    
                     <p><em>Szepty Lasu to nie tylko sklep – to początek dobrej zmiany.</em></p>
                 </div>
                 <div class="about-image"></div>
@@ -73,7 +70,6 @@
                     <h3>Suplementy Diety</h3>
                     <p>Naturalne suplementy wspierające zdrowie i witalność, dobrane indywidualnie do Twoich potrzeb.</p>
                 </div>
-                
                 <div class="product-card">
                     <div class="product-icon">
                         <i class="fas fa-seedling"></i>
@@ -81,7 +77,6 @@
                     <h3>Zioła Lecznicze</h3>
                     <p>Szeroki wybór ziół od sprawdzonych polskich producentów - dla zdrowia i dobrego samopoczucia.</p>
                 </div>
-                
                 <div class="product-card">
                     <div class="product-icon">
                         <i class="fas fa-tint"></i>
@@ -89,7 +84,6 @@
                     <h3>Oleje Naturalne</h3>
                     <p>Wysokiej jakości oleje roślinne do pielęgnacji ciała i wspomagania zdrowia.</p>
                 </div>
-                
                 <div class="product-card">
                     <div class="product-icon">
                         <i class="fas fa-heart"></i>
@@ -97,7 +91,6 @@
                     <h3>Miody i Produkty Pszczele</h3>
                     <p>Naturalne miody i produkty pszczele - źródło zdrowia prosto od polskich pasiek.</p>
                 </div>
-                
                 <div class="product-card">
                     <div class="product-icon">
                         <i class="fas fa-apple-alt"></i>
@@ -105,7 +98,6 @@
                     <h3>Zdrowa Żywność</h3>
                     <p>Ekologiczne produkty spożywcze wspierające zdrowy i świadomy styl życia.</p>
                 </div>
-                
                 <div class="product-card">
                     <div class="product-icon">
                         <i class="fas fa-spa"></i>
@@ -123,16 +115,14 @@
             <div class="contact-content">
                 <div class="contact-info">
                     <h3 style="margin-bottom: 2rem; color: #4a6741; font-family: 'Playfair Display', serif;">Odwiedź nas</h3>
-                    
                     <div class="contact-item">
                         <i class="fas fa-map-marker-alt"></i>
                         <div>
                             <strong>Adres:</strong><br>
                             ul. Godulska 15<br>
-                            Bytom
+                            41-900 Bytom
                         </div>
                     </div>
-                    
                     <div class="contact-item">
                         <i class="fas fa-clock"></i>
                         <div>
@@ -141,7 +131,6 @@
                             Sob: 9:00 - 14:00
                         </div>
                     </div>
-                    
                     <div class="contact-item">
                         <i class="fas fa-phone"></i>
                         <div>
@@ -149,7 +138,6 @@
                             +48 123 456 789
                         </div>
                     </div>
-                    
                     <div class="contact-item">
                         <i class="fas fa-envelope"></i>
                         <div>
@@ -158,10 +146,17 @@
                         </div>
                     </div>
                 </div>
-                
-                <div class="map-placeholder">
-                    <i class="fas fa-map"></i>
-                    <span style="margin-left: 1rem;">Mapa lokalizacji</span>
+                <div class="map-container">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3929.5522364177114!2d18.883310377383047!3d50.33395669574361!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47112d35ce04744f%3A0xb92b06ddc83bb279!2sZielarnia%20Szepty%20Lasu!5e1!3m2!1spl!2spl!4v1752866247966!5m2!1spl!2spl"
+                        width="100%" 
+                        height="300" 
+                        style="border:0; border-radius: 15px;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="Lokalizacja Szepty Lasu - ul. Godulska 15, Bytom">
+                    </iframe>
                 </div>
             </div>
         </div>
